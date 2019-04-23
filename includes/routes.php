@@ -15,3 +15,6 @@ $route['/logout.html'] = array('controller' => 'LogoutController', 'uniqueName' 
 
 $route['/rangliste.html'] = array('controller' => 'RanglisteController', 'uniqueName' => 'rangliste');
 $route['/rangliste'] = array('controller' => 'RanglisteController', 'uniqueName' => 'rangliste');
+
+$route['/anmeldung.html'] = array('controller' => 'AnmeldungController', 'uniqueName' => 'anmeldung');
+$route['/anmeldung'] = array('controller' => 'AnmeldungController', 'uniqueName' => 'anmeldung');
