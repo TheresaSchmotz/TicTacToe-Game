@@ -1,6 +1,6 @@
 <?php
 
-define('URL_PATH', '/baseproject');
+define('URL_PATH', '/TicTacToe-Game');
 
 define('LOGIN_URL', 'login');
 define('LOGOUT_URL', 'logout');
