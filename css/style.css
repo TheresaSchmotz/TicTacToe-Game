@@ -206,12 +206,16 @@ input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:
     width: 140px;
   }
 }
+
+/*Hovern zur Zugwahl*/
 .tic-tac-toe label:hover {
   background-color: #777777;
 }
 .tic-tac-toe label:hover:after {
   opacity: .4;
 }
+
+/*X und O signs*/
 .tic-tac-toe label:after {
   left: 0;
   font-family: "FontAwesome";
