@@ -39,7 +39,7 @@ header {
                     margin-right:5px;
                 }
 
-                color:#aaa;
+                color:#0f0f0f;
                 font-size:10px;
             }
         }
@@ -67,7 +67,11 @@ header {
 .toast-success{background-color:#dff0d8}
 .toast-error{background-color:#f2dede}
 
-
+label{ color: #000000;}
+input{ color: #000000;}
+h1 {
+    color: #000;
+}
 h3 {
     color: #000;
 }

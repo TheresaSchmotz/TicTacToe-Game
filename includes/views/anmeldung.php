@@ -3,9 +3,9 @@
 echo $this->header;
 
 ?>
-<h3 class="header text-center">LogIn</h3><p></p>
+    <h1 class="header text-center">Login</h1><p></p>
     <div class="container m-auto" id="login">
-        <form class="form-signin mb-5 mt-0 p-5" method="get">
+        <form action ="http://localhost/TicTacToe-Game/" class="form-signin mb-5 mt-0 p-5" method="get">
             <div class="form-group mt-5 p-3">
                 <label for="Player">Spielername 1</label>
                 <input type="text" class="form-control" id="Player" aria-describedby="nameHelp" placeholder="Bitte Namen eingeben">
@@ -22,9 +22,7 @@ echo $this->header;
                     <div class="success feedback">Ihr Passwort entspricht den Anforderungen</div>
                 </div>
             </div>
-            <div class="submitButton">
-                <input type="submit" value="Absenden" class="submit" id="submitPassword">
-            </div>
+
             <p></p>
             <div class="form-group mt-5 p-3">
                 <label for="Player">Spielername 2</label>
@@ -36,6 +34,7 @@ echo $this->header;
             </div>
             <button type="submit" class="btn btn-primary" id="login">Login</button>
         </form>
+        <a href="http://localhost/TicTacToe-Game/rangliste"> Hier zur Rangliste </a>
     </div>
     <tbody>
     <?php foreach($this->Spielername1 as $Player => $anmeldung): ?>

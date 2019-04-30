@@ -31,7 +31,7 @@ header .inner .logo .name {
 }
 /* line 35, ../scss/main.scss */
 header .inner .logo .version {
-  color: #aaa;
+  color: #0f0f0f;
   font-size: 10px;
 }
 /* line 36, ../scss/main.scss */
@@ -66,7 +66,22 @@ header::after {
   background-color: #f2dede;
 }
 
+/* line 70, ../scss/main.scss */
+label {
+  color: #000000;
+}
+
 /* line 71, ../scss/main.scss */
+input {
+  color: #000000;
+}
+
+/* line 72, ../scss/main.scss */
+h1 {
+  color: #000;
+}
+
+/* line 75, ../scss/main.scss */
 h3 {
   color: #000;
 }

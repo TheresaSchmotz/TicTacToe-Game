@@ -3,6 +3,7 @@
 echo $this->header;
 
 ?>
+<h3>GAME</h3>
     <div class="tic-tac-toe">
         <input class="player-1 left first-column top first-row first-diagonal turn-1" id="block1-1-1" type="radio"/>
         <label class="turn-1" for="block1-1-1"></label>
@@ -170,10 +171,7 @@ echo $this->header;
             <h3></h3><a href="">Restart</a>
         </div>
     </div>
-
-
-
-    <script  src="js/index.js"></script>
+    <a href="http://localhost/TicTacToe-Game/anmeldung">Zurück zur Anmeldung</a>
 
 
 <?php
